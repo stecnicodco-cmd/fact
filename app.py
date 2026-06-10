@@ -16,7 +16,7 @@ if "reglas_proveedores" not in st.session_state:
     }
 
 # Opciones válidas solicitadas
-RUBROS_DISPONIBLES = ["medicina", "comida", "telefonia", "transporte", "material"]
+RUBROS_DISPONIBLES = ["medicina", "comida", "telefonia", "transporte", "material", "vestido"]
 TIPOS_DISPONIBLES = ["FACTURAS QUE APLICAN ACTIVIDAD ECONOMICA", "FACTURAS APLICAN GASTOS PERSONALES"]
 
 def clasificar_proveedor(razon_social):
